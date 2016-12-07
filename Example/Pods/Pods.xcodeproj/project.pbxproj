@@ -11,9 +11,11 @@
 		267EE2AA28EA9AE4BBF4626AF179C56E /* Pods-TrackingHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D34A389B13E5BCFF6919CA55C1D53E1 /* Pods-TrackingHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73D7F1E5C03398D9777E0496FC482EA6 /* TrackingHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E20FA0A9347735D750475A2933FFFCE6 /* TrackingHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8EA5A7188202E150CD4A6D273F18A63B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		C159F623D835FC1B34A9127D2DB07393 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F471C6ACF8D665DCAA604B0AA5056B38 /* ReplaceMe.swift */; };
 		EE23BB3BB25BBBA9643BCA2342C54E16 /* TrackingHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0213FF40342ECC45DE1F5F2B809CCF78 /* TrackingHelper-dummy.m */; };
 		F7237A88310B89E9E8635BCF2652D5B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F9790BFF1DF81A9B00DDD4FF /* ATTConfigConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9790BFB1DF81A9B00DDD4FF /* ATTConfigConstants.swift */; };
+		F9790C001DF81A9B00DDD4FF /* ATTConfigParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9790BFC1DF81A9B00DDD4FF /* ATTConfigParser.swift */; };
+		F9790C011DF81A9B00DDD4FF /* ATTTrackingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9790BFD1DF81A9B00DDD4FF /* ATTTrackingHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +49,10 @@
 		EBF7FF542B71CAC3A2414645C12EE6AF /* TrackingHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrackingHelper.xcconfig; sourceTree = "<group>"; };
 		EFFB238C06FEA3612E7D1A84305676EB /* Pods-TrackingHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrackingHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F0C7FAC5911397206C827C0320AB96A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F471C6ACF8D665DCAA604B0AA5056B38 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		F9790BFB1DF81A9B00DDD4FF /* ATTConfigConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATTConfigConstants.swift; sourceTree = "<group>"; };
+		F9790BFC1DF81A9B00DDD4FF /* ATTConfigParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATTConfigParser.swift; sourceTree = "<group>"; };
+		F9790BFD1DF81A9B00DDD4FF /* ATTTrackingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATTTrackingHelper.swift; sourceTree = "<group>"; };
+		F9790BFE1DF81A9B00DDD4FF /* sample_config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sample_config.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +155,10 @@
 		BC264B9CE1E51B7BBF4CEDF77FBD50F4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F471C6ACF8D665DCAA604B0AA5056B38 /* ReplaceMe.swift */,
+				F9790BFB1DF81A9B00DDD4FF /* ATTConfigConstants.swift */,
+				F9790BFC1DF81A9B00DDD4FF /* ATTConfigParser.swift */,
+				F9790BFD1DF81A9B00DDD4FF /* ATTTrackingHelper.swift */,
+				F9790BFE1DF81A9B00DDD4FF /* sample_config.plist */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -277,7 +285,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C159F623D835FC1B34A9127D2DB07393 /* ReplaceMe.swift in Sources */,
 				EE23BB3BB25BBBA9643BCA2342C54E16 /* TrackingHelper-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +294,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				03B52314F7B0484FCB29214F12A375B1 /* Pods-TrackingHelper_Tests-dummy.m in Sources */,
+				F9790BFF1DF81A9B00DDD4FF /* ATTConfigConstants.swift in Sources */,
+				F9790C011DF81A9B00DDD4FF /* ATTTrackingHelper.swift in Sources */,
+				F9790C001DF81A9B00DDD4FF /* ATTConfigParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +457,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EFFB238C06FEA3612E7D1A84305676EB /* Pods-TrackingHelper_Tests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -482,6 +493,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ABB7E5ABCF8CB4A99C8096EE5481793E /* Pods-TrackingHelper_Tests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";

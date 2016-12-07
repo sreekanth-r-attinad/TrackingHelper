@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>analytics</key>
+	<array>
+		<dict>
+			<key>agent</key>
+			<string>AnalyticsAgentName</string>
+			<key>type</key>
+			<string>Analytics</string>
+			<key>url</key>
+			<string>https://www.engineurl.com</string>
+			<key>flush_interval</key>
+			<integer>0</integer>
+			<key>post_to_url</key>
+			<true/>
+			<key>agent_enabled</key>
+			<true/>
+			<key>data_field</key>
+			<array>
+				<dict>
+					<key>agentKey</key>
+					<string>AgentKey</string>
+					<key>app_specific_key</key>
+					<string>appSpecificKey</string>
+					<key>app_specific_class</key>
+					<string></string>
+					<key>app_specific_method</key>
+					<string></string>
+					<key>key_type</key>
+					<string>state</string>
+					<key>param</key>
+					<array>
+						<dict>
+							<key>param_agentKey</key>
+							<string>agentKey</string>
+							<key>param_localkey</key>
+							<string>localKey</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
