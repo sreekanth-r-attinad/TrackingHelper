@@ -1,0 +1,6 @@
+use_frameworks!
+target 'TrackingHelper_Tests' do
+  pod 'TrackingHelper', :path => '../'
+  
+  
+end
