@@ -1,0 +1,6 @@
+framework module TrackingHelper {
+  umbrella header "TrackingHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

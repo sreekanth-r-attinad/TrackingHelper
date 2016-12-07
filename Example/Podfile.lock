@@ -1,0 +1,16 @@
+PODS:
+  - TrackingHelper (0.1.0)
+
+DEPENDENCIES:
+  - TrackingHelper (from `../`)
+
+EXTERNAL SOURCES:
+  TrackingHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TrackingHelper: d2dce3ecf3810c57ed58193bd0b4f36a6414e15d
+
+PODFILE CHECKSUM: ab8e6c33861691b4d602b1301904334ec9977dfb
+
+COCOAPODS: 1.0.1

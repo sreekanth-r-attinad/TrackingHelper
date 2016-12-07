@@ -1,0 +1,22 @@
+{
+  "name": "TrackingHelper",
+  "version": "0.1.0",
+  "summary": "A short description of TrackingHelper.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/TrackingHelper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Akhil PK": "akhil.pk@accedo.tv"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/TrackingHelper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TrackingHelper/Classes/**/*"
+}
